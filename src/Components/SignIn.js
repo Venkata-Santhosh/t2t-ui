@@ -8,9 +8,6 @@ const form = reduxForm({
     form: 'login'
 });
 
-
-
-// hey this is SignIn
 class SignIn extends Component {
     handleFormSubmit(formProps) {
         this.props.loginUser(formProps);
